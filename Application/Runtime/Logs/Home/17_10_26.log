@@ -1,0 +1,488 @@
+[ 2017-10-26T14:35:05+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023083s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\QuantaRMS\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.1339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT `status` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `department` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '研发部' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '运营部' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '设计部' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `is_well` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '研发部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0027s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '运营部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0012s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '设计部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 4 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 5 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 6 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` ORDER BY view_times desc LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 153 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] Missing argument 3 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 153 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `is_well` = 1 ORDER BY 4 desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030092s ]
+
+[ 2017-10-26T14:35:19+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.0682s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `stud_number`,`real_name`,`position`,`department` FROM `zyglxt_user` WHERE `status` > 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.1821s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002446s ]
+
+[ 2017-10-26T14:37:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.1268s ]
+SQL: SELECT `stud_number`,`real_name`,`position`,`department` FROM `zyglxt_user` WHERE `status` > 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0453s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-10-26T15:55:44+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载控制器:RMS
+
+[ 2017-10-26T15:56:01+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.0833s ]
+SQL: SELECT `stud_number`,`real_name`,`position`,`department` FROM `zyglxt_user` WHERE `status` > 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zyglxt_article`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2017-10-26T19:17:47+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022316s ]
+
+[ 2017-10-26T19:19:13+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-10-26T19:19:21+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-10-26T19:20:12+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.2609s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1508412012 AND `pub_time` < 1509016812  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0222s ]
+
+[ 2017-10-26T19:20:50+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\QuantaRMS\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0415s ]
+SQL: SELECT `status` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `department` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '研发部' LIMIT 1   [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '运营部' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '设计部' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `is_well` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '研发部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0040s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '运营部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0012s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '设计部' ORDER BY pub_time desc LIMIT 0,7   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 4 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 5 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+NOTIC: [8] Undefined offset: 6 E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 7 行.
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` ORDER BY view_times desc LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 153 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] Missing argument 3 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 153 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 31 行.
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `is_well` = 1 ORDER BY 4 desc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044892s ]
+
+[ 2017-10-26T19:20:55+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1508412055 AND `pub_time` < 1509016855  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-26T19:21:32+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908092 AND `pub_time` < 1509016892  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908092 AND `pub_time` < 1509016892  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2017-10-26T19:21:33+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.1337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908093 AND `pub_time` < 1509016893  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908093 AND `pub_time` < 1509016893  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-10-26T19:21:34+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908094 AND `pub_time` < 1509016894  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908094 AND `pub_time` < 1509016894  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-10-26T19:21:35+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908095 AND `pub_time` < 1509016895  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908095 AND `pub_time` < 1509016895  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-10-26T19:21:36+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908096 AND `pub_time` < 1509016896  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908096 AND `pub_time` < 1509016896  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-10-26T19:22:55+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908175 AND `pub_time` < 1509016975  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908175 AND `pub_time` < 1509016975  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-10-26T19:22:56+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908176 AND `pub_time` < 1509016976  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908176 AND `pub_time` < 1509016976  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-10-26T19:22:56+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908176 AND `pub_time` < 1509016976  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908176 AND `pub_time` < 1509016976  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-10-26T19:22:57+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-10-26T19:22:57+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-10-26T19:22:57+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-10-26T19:22:57+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908177 AND `pub_time` < 1509016977  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-10-26T19:22:58+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.4263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE ( `pub_time` > 1498908178 AND `pub_time` < 1509016978  ) AND `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  ( `pub_time` > 1498908178 AND `pub_time` < 1509016978  ) AND `stud_number` = '20161003456' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-10-26T19:24:48+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-10-26T19:24:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.2491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-10-26T19:24:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-10-26T19:24:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-10-26T19:24:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-10-26T19:24:49+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-10-26T19:24:50+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-10-26T19:24:50+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/get_draft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `zyglxt_draft` [ RunTime:0.2817s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_draft` WHERE `stud_number` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `draft_id`,`draft_title`,`pub_time`,`stud_number` FROM `zyglxt_draft` WHERE (  `stud_number` = '20161003456' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+

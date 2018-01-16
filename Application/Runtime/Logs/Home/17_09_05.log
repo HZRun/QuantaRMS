@@ -1,0 +1,14 @@
+[ 2017-09-05T00:00:40+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0561s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/file/59ad78a80c572.docx','1577625415979289','20161003456') [ RunTime:0.0505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+

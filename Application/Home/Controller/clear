@@ -1,0 +1,1 @@
+find /var/www/html/QuantaRMS/Public/draft -mtime +3 -name "*.txt*" -exec rm -rf {} \;

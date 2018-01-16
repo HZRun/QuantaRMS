@@ -1,0 +1,323 @@
+[ 2017-09-04T19:09:15+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010143s ]
+
+[ 2017-09-04T19:09:33+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\QuantaRMS\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'rmsrms'@'localhost' to database 'rms'
+
+[ 2017-09-04T19:10:56+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-09-04T19:11:08+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-09-04T19:11:23+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-09-04T19:11:36+08:00 ] ::1 /QuantaRMS/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-09-04T19:14:36+08:00 ] ::1 /QuantaRMS/index.php/home/login/text4/username/20161003456/password/15a5051016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\QuantaRMS\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zyglxt_user` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `status` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `department` FROM `zyglxt_user` WHERE `stud_number` = '20161003456' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zyglxt_article` [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '研发部' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '运营部' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `cata` = '设计部' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_article` WHERE `is_well` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '研发部' ORDER BY pub_time LIMIT 0,7   [ RunTime:0.0013s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '运营部' ORDER BY pub_time LIMIT 0,7   [ RunTime:0.0012s ]
+SQL: SELECT `cata`,`article_id`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `cata` = '设计部' ORDER BY pub_time LIMIT 0,7   [ RunTime:0.0009s ]
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` ORDER BY view_times LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 126 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 21 行.
+NOTIC: [2] Missing argument 3 for display_well(), called in E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\LoginController.class.php on line 126 and defined E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 23 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 23 行.
+NOTIC: [8] Undefined variable: num E:\xampp\htdocs\QuantaRMS\Application\Common\Common\function.php 第 23 行.
+SQL: SELECT `article_id`,`cata`,`article_title`,`abstract`,`author`,`view_times`,`pub_time`,`is_well` FROM `zyglxt_article` WHERE `is_well` = 1 ORDER BY 4  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2017-09-04T19:15:23+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0099s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/file/2017-09-04/59ad35cae3ea3.doc','1577607467270934','20161003456') [ RunTime:0.0515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002382s ]
+
+[ 2017-09-04T19:15:34+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0100s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/file/2017-09-04/59ad35d5f088a.jpg','1577607478905804','20161003456') [ RunTime:0.0299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-09-04T19:15:42+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0093s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/file/2017-09-04/59ad35de915fc.jpg','1577607487904421','20161003456') [ RunTime:0.0422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2017-09-04T19:15:52+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'file_name' in 'field list'
+ [ SQL语句 ] : SELECT `file_id`,`file_name` FROM `zyglxt_file` 
+ERR: 1054:Unknown column 'file_name' in 'field list'
+ [ SQL语句 ] : SELECT `file_id`,`file_name` FROM `zyglxt_file` 
+
+[ 2017-09-04T19:16:40+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-09-04T19:23:11+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-09-04T19:23:17+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file` LIMIT -10,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file` LIMIT -10,10  
+
+[ 2017-09-04T19:23:22+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-09-04T19:27:30+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0198s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+
+[ 2017-09-04T19:29:40+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0103s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+
+[ 2017-09-04T19:33:04+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0102s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+
+[ 2017-09-04T19:33:05+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username= ) LIMIT 1  
+
+[ 2017-09-04T19:33:53+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1/username/20161003456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0196s ]
+ERR: 1054:Unknown column 'username' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username=20161003456 ) LIMIT 1  
+ERR: 1054:Unknown column 'username' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( username=20161003456 ) LIMIT 1  
+
+[ 2017-09-04T19:34:22+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/my_file/page/1/username/20161003456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zyglxt_file` WHERE ( file_own=20161003456 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `file_id`,`file_own`,`url` FROM `zyglxt_file` WHERE `file_own` = '20161003456' LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-09-04T22:04:44+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined index: file E:\xampp\htdocs\QuantaRMS\Application\Home\Controller\RMSController.class.php 第 184 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030222s ]
+
+[ 2017-09-04T22:05:02+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0101s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/2017-09-04/59ad5d8e8586d.jpg','1577618141388917','20161003456') [ RunTime:0.0997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2017-09-04T22:09:14+08:00 ] ::1 /QuantaRMS/index.php/home/RMS/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QuantaRMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `zyglxt_file` [ RunTime:0.0095s ]
+SQL: INSERT INTO `zyglxt_file` (`url`,`file_id`,`file_own`) VALUES ('./Public/file/59ad5e8a9f534.jpg','1577618405735131','20161003456') [ RunTime:0.0659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
